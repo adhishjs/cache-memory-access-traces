@@ -1,0 +1,8 @@
+Trace,Accesses,Main_cache_hits,Initial_cache_misses,Prefetch_buffer_hits,Demand_DRAM_requests,Prefetch_requests_accepted,Total_DRAM_transactions,Average_CPU_latency_cycles,Prefetch_accuracy_percent,Prefetch_coverage_percent,Baseline_average_latency_cycles
+Sequential,256,192,64,61,3,62,65,5.84375,98.387097,95.3125,8.75
+Stride-16,256,0,256,253,3,254,257,25.15625,99.606299,98.828125,26.0
+Repeated,256,255,1,0,1,0,1,3.109375,,0.0,3.089844
+Random,256,192,64,0,64,0,64,10.0,,0.0,10.0
+Matrix row,256,192,64,61,3,62,65,5.84375,98.387097,95.3125,8.75
+Matrix column,256,192,64,52,12,56,68,9.125,92.857143,81.25,8.75
+Mixed,256,137,119,74,45,76,121,14.109375,97.368421,62.184874,13.691406
